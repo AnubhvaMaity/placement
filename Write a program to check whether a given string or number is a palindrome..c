@@ -1,7 +1,7 @@
 #include <stdio.h>      // Used for printf() and scanf()
 #include <string.h>     // Used for strlen()
 
-int main() {             // Program starts here
+int main() {           
 
     char str[100];       // Stores the string
     int i, len;          // i is for loop, len stores string length
@@ -25,9 +25,9 @@ int main() {             // Program starts here
 
     // Check the value of flag
     if(flag == 1)
-        printf("Palindrome");     // If flag is 1, it is palindrome
+        printf("Palindrome");     
     else
-        printf("Not Palindrome"); // If flag is 0, it is not palindrome
+        printf("Not Palindrome"); 
 
-    return 0;                     // End the program
+    return 0;                     
 }
